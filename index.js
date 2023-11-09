@@ -12,7 +12,7 @@ const app = express();
 const dotenv = require("dotenv").config();
 var cors = require("cors");
 
-app.use(cors({ origin: "https://vloguider-akhil-t-ns-projects.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://vloguider.vercel.app", credentials: true }));
 
 app.use(express.json());
 app.use(cookieParser());
